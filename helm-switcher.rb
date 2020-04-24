@@ -8,8 +8,7 @@ class HelmSwitcher < Formula
   sha256 "96c5a0e1a37e61855c60e530f2ac0e401537838b73cd8d8fa2b95417bd17843f"
 
   def install
-    ls
-    bin.install "helmswitch"
+    bin.install "helmswitch-macOS-latest"
   end
 
 end
