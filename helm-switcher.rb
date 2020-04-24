@@ -7,16 +7,7 @@ class HelmSwitcher < Formula
   url "https://github.com/tokiwong/helm-switcher/releases/download/v0.0.1/helmswitch-darwin-amd64.zip"
   sha256 "96c5a0e1a37e61855c60e530f2ac0e401537838b73cd8d8fa2b95417bd17843f"
 
-  # depends_on "cmake" => :build
-
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
     bin.install "helmswitch"
   end
 
