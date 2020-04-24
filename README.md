@@ -1,2 +1,2 @@
-# homebrew-helmswitch
-Brew repo for helmswitch
+# homebrew-tap
+Brew repo for homebrew taps
