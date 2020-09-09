@@ -4,8 +4,8 @@
 class HelmSwitcher < Formula
   desc "CLI tool to help install and switch between versions of Helm for Kubernetes"
   homepage ""
-  url "https://github.com/tokiwong/helm-switcher/releases/download/v0.0.4/helmswitch-darwin-amd64.zip"
-  sha256 "f24112ea157426ad74f66b750e302239bc8574d572143c80591d6fb943364e19"
+  url "https://github.com/tokiwong/helm-switcher/releases/download/v0.0.5/helmswitch-darwin-amd64.zip"
+  sha256 "959a654f8d08fb0cabc97c42d86bc4f6143667f0035ad40e078ac9811faa03e8"
 
   def install
     bin.install "helmswitch"
